@@ -13,7 +13,7 @@ int main(){
         flag = 1;
     }
     
-    for (int i = 0; flag == 0 && d1 <= d2; i++) {
+    for (int i = 0; flag == 0 && d1 <= d2 && v1 > v2; i++) {
         d1 += v1;
         d2 += v2;
         
